@@ -1,0 +1,30 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.splide {
+  width: 60rem;
+  height: 50rem;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.splide .hero-heading-main {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #222;
+  background-color: #fbfbfb;
+  width: 290px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.3);
+}
