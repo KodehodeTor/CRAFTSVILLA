@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url("./media/STRUCTURE/background.jpg");
+  background-image: url("./media/STRUCTURE/background.jpg");
 }
 
 h1 {
@@ -106,7 +106,7 @@ nav a:visited {
   margin: 0 auto;
   border-radius: 0 0 1rem 1rem;
   box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.3);
-    background-image: url("./media/STRUCTURE/background.jpg");
+  background-image: url("./media/STRUCTURE/background.jpg");
 }
 
 .splide__slide img {
@@ -120,15 +120,14 @@ nav a:visited {
 /* INFO-BOX */
 
 .info-box {
-  margin: 5rem; auto;
+  margin: 5rem auto;
   font-size: 1.2rem;
 }
 
 .info-box p {
   width: 20rem;
-  font-family:;
   margin-right: 5rem;
-  font-style:italic
+  font-style: italic;
 }
 
 .info-box h2 {
@@ -147,7 +146,7 @@ nav a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .info-box-card img {
@@ -156,6 +155,7 @@ nav a:visited {
   justify-content: center;
   border-radius: 1rem;
   margin: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* FOOTER */
@@ -175,7 +175,6 @@ nav a:visited {
   letter-spacing: 0.18em;
   color: rgba(28, 25, 23, 0.5);
   display: flex;
-  gap: 24px;
   font-family: serif;
 }
 
