@@ -94,16 +94,6 @@ nav a:visited {
   border-bottom: 0.1rem solid black;
 }
 
-.splide_booking {
-  width: 80rem;
-  height: 50rem;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
-  border-radius: 1rem;
-  border-bottom: 0.1rem solid black;
-}
-
 .splide .hero-heading-main {
   position: absolute;
   z-index: 200;
@@ -119,30 +109,14 @@ nav a:visited {
   background-image: url("./media/STRUCTURE/background.jpg");
 }
 
+.splide_slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .splide__slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin-bottom: -10rem;
-}
-
-.splide__slide_booking img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.splide__slide_gallery {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin-bottom: -140rem;
-}
-
-.splide__slide_booking {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -236,6 +210,8 @@ nav a:visited {
   margin: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* FORM FOR BOOKING */
 
 /* FOOTER */
 
