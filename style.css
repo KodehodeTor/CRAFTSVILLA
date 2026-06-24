@@ -30,16 +30,31 @@ h1 {
   height: 4em;
 }
 
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
 .nav-inner {
   display: flex;
-  flex-direction: row;
-  gap: 50rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  width: 80rem;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  margin: 0 0.625em;
+  margin: 0 0.625rem;
+  gap: 2rem;
+}
+
+nav li {
+  display: flex;
+  list-style: none;
+  margin: 0 0.625rem;
+  gap: 2rem;
 }
 
 .nav-logo {
@@ -71,6 +86,7 @@ nav a:visited {
   margin: 0 auto;
   position: relative;
   border-radius: 1rem;
+  border-bottom: 0.1rem solid black;
 }
 
 .splide .hero-heading-main {
