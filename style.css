@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("./media/STRUCTURE/background.jpg");
 }
 
 @font-face {
@@ -12,6 +11,10 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+    background-image: url("./media/STRUCTURE/background.jpg");
 }
 
 h1 {
@@ -103,6 +106,7 @@ nav a:visited {
   margin: 0 auto;
   border-radius: 0 0 1rem 1rem;
   box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.3);
+    background-image: url("./media/STRUCTURE/background.jpg");
 }
 
 .splide__slide img {
@@ -123,10 +127,13 @@ nav a:visited {
 .info-box p {
   width: 20rem;
   font-family:;
+  margin-right: 5rem;
+  font-style:italic
 }
 
 .info-box h2 {
   font-family: bontex;
+  margin-right: 10rem;
 }
 
 .info-box-card {
