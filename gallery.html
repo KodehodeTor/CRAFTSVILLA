@@ -6,6 +6,10 @@
     <title>Craftville - Galleri</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-default.min.css"
+    />
   </head>
   <body>
 </html>
@@ -22,6 +26,98 @@
   </div>
 </nav>
 
+<!-- SLIDER -->
+
+
+    <section class="splide">
+      <div class="hero-heading-main">
+        <h1>Craftville</h1>
+      </div>
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide_gallery">
+            <img
+              src="./media/GALLERY/painting_castle_medium.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="./media/GALLERY/painting_field_medium.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="./media/GALLERY/painting_mountain_medium.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+<!-- GALLERY PICTURES -->
+
+
+
+ <section class="info-box-gallery">
+  <h2 id="h2-gallery">Fra våre medlemmer</h2>
+      <div class="info-box-card-gallery">
+        <img
+          src="./media/REVIEWS/Joker.jpg"
+          alt="A modern mosaic piece with a face of a woman. "
+        />
+        <div class="info-text-gallery">
+          <h2>Arild  , Porsgrunn</h2>
+          <p>
+            Arild startet hos oss et halvt år siden med en lidenskap uten kunnskapen og i dag tar han nytte av mange av teknikkene som vi lærer bort. 
+          </p>
+        </div>
+        <img src="./media/REVIEWS/Charlie.jpg" alt="A painting of Charlie Chaplin with black outlines." />
+        <div class="info-text-gallery">
+          <h2>Nina  , Skien </h2>
+          <p>
+            Nina har lang erfaring med maling men foretrekker våre produkter og det sosiale aspektet og deltar på våre ukentlige kurs med en glede som smitter.
+          </p>
+      </div>
+              <img src="./media/REVIEWS/Nature.jpg" alt="A painting of Charlie Chaplin with black outlines." />
+        <div class="info-text-gallery">
+          <h2>Gunnar  , Herre</h2>
+          <p>
+            Gunnar er en av våre nyeste medlemmer som har utviklet seg raskt over kort tid, her er et maleri han nylig gjorde i regi av en Bob Ross video.
+          </p>
+      </div>
+    </section>
+
+     <section class="info-box-gallery">
+      <div class="info-box-card-gallery">
+        <img
+          src="./media/REVIEWS/Dreamcatcher.jpg"
+          alt="A modern mosaic piece with a face of a woman. "
+        />
+        <div class="info-text-gallery">
+          <h2>Henriette  , Siljan</h2>
+          <p>
+            Henriette er ei sprudlende jente fra Siljan som kom til oss med et stort ønske om å tegne og etter 3 uker med kurs viser hun allerede et stort naturlig talent.
+          </p>
+        </div>
+        <img src="./media/REVIEWS/Doggo.jpg" alt="A painting of Charlie Chaplin with black outlines." />
+        <div class="info-text-gallery">
+          <h2>Bjørn  , Skotfoss </h2>
+          <p>
+           Bjørn elsker dyr og viser frem sin første tegning med farger i et bilde fra nabohunden "Rex". Bildet ble godt tatt i mot av eier og henger nå i stuen til foreldrene til Rex.
+          </p>
+      </div>
+              <img src="./media/REVIEWS/Rolling.jpg" alt="A painting of Charlie Chaplin with black outlines." />
+        <div class="info-text-gallery">
+          <h2>Kåre-Ivar  , Limi</h2>
+          <p>
+            Kåre-Ivar er en ihugget Rolling Stones fan og har satt av mye tid og energi i dette flotte gruppebildet og har allerede mottatt bud fra andre fans om salg av bildet, men det forblir i Kåre-Ivar sin stue inntil videre.
+          </p>
+      </div>
+    </section>
+
 <!-- FOOTER -->
      <footer>
       <div class="footer-inner">
@@ -32,4 +128,15 @@
       </div>
     </footer>
 
+
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+      var splide = new Splide(".splide", {
+        type: "loop",
+        padding: "5rem",
+      });
+
+      splide.mount();
+    </script>
     </body>
