@@ -116,12 +116,17 @@ nav a:visited {
 /* INFO-BOX */
 
 .info-box {
-  margin: 0 auto;
+  margin: 5rem; auto;
   font-size: 1.2rem;
 }
 
 .info-box p {
   width: 20rem;
+  font-family:;
+}
+
+.info-box h2 {
+  font-family: bontex;
 }
 
 .info-box-card {
