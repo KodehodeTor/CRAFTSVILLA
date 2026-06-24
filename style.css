@@ -24,32 +24,38 @@ h1 {
 /* NAVBAR */
 .navbar {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  height: 3em;
-  background-color: rgba(10, 10, 11, 0.9);
-  border-bottom: 1px solid black;
-  color: rgb(48, 48, 48);
+  justify-content: space-evenly;
+  height: 4em;
+}
+
+.nav-inner {
+  display: flex;
+  flex-direction: row;
+  gap: 50rem;
 }
 
 nav ul {
   display: flex;
-  gap: 2em;
   list-style: none;
   margin: 0 0.625em;
 }
 
-.logo {
+.nav-logo {
   font-weight: 900;
-  font-size: 1em;
+  font-size: 2rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin: 0 0.625em;
+  font-family: bontex;
 }
 
 nav a {
   color: rgb(190, 191, 198);
   text-decoration: none;
+  font-family: bontex;
+  font-size: 2rem;
 }
 
 nav a:visited {
@@ -64,6 +70,7 @@ nav a:visited {
   overflow: hidden;
   margin: 0 auto;
   position: relative;
+  border-radius: 1rem;
 }
 
 .splide .hero-heading-main {
@@ -73,12 +80,10 @@ nav a:visited {
   left: 0;
   right: 0;
   color: #222;
-  background-color: #fbfbfb;
   width: 290px;
   text-align: center;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 1rem 1rem;
   box-shadow: 0 4px 13px -4px rgba(0, 0, 0, 0.3);
 }
 
@@ -87,13 +92,7 @@ nav a:visited {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-.splide__track {
-  width: 80rem;
-  height: auto;
-  display: block;
-  object-fit: cover;
+  margin-bottom: -10rem;
 }
 
 /* FOOTER */
