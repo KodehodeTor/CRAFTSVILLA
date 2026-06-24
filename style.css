@@ -19,6 +19,7 @@ h1 {
   font-size: 5rem;
   font-weight: 900;
   border-radius: 1rem;
+  color: rgb(59, 60, 60);
 }
 
 /* NAVBAR */
@@ -67,14 +68,14 @@ nav li {
 }
 
 nav a {
-  color: rgb(190, 191, 198);
+  color: rgb(59, 60, 60);
   text-decoration: none;
   font-family: bontex;
   font-size: 2rem;
 }
 
 nav a:visited {
-  color: rgb(190, 191, 198);
+  color: rgb(59, 60, 60);
 }
 
 /* SPLIDE/SLIDE */
@@ -109,6 +110,22 @@ nav a:visited {
   object-fit: cover;
   display: block;
   margin-bottom: -10rem;
+}
+
+/* INFO-BOX */
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80rem;
+  border-radius: 25px;
+  color: rgb(71, 71, 71);
+  margin: 0 auto;
+}
+
+.info-box-div {
 }
 
 /* FOOTER */
