@@ -6,6 +6,10 @@
     <title>Craftville - Bestilling</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-default.min.css"
+    />
   </head>
   <body>
 </html>
@@ -22,7 +26,37 @@
   </div>
 </nav>
 
-<!--  -->
+<!-- SLIDER -->
+
+    <section class="splide">
+      <div class="hero-heading-main">
+        <h1>Craftville</h1>
+      </div>
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img
+              src="./media/BOOKING PICS/mosaic_product.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="./media/BOOKING PICS/watercolor_product.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="./media/BOOKING PICS/painting2_product.jpg"
+              alt="Placeholder picture"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+<!-- Content filler / Psuedo kode -->
 
 
 
@@ -35,5 +69,16 @@
         </div>
       </div>
     </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+      var splide = new Splide(".splide", {
+        type: "loop",
+        padding: "5rem",
+      });
+
+      splide.mount();
+    </script>
 
     </body>
