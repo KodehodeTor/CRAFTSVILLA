@@ -211,22 +211,55 @@ nav a:visited {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* FORM FOR BOOKING */
+/* FORM & CALENDAR FOR BOOKING */
 
 #h2-booking {
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-family: bontex;
-  font-size: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
-form {
-  padding-top: 1rem;
+.form_calendar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: stretch;
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 900px;
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 10rem;
+}
+
+.form {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  gap: 10px;
+  gap: 1.8rem;
   margin: auto;
-  width: 40rem;
+  width: 640px;
+  flex: 0.8;
+  height: 680px;
+  margin-bottom: 12rem;
+}
+
+.calendar {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1.5;
+  width: 740px;
+  height: 680px;
+}
+
+.calendar iframe {
+  width: 100%;
+  height: 100%;
+  /* min-height: 500px;  */
+  border: 0;
 }
 
 input,
