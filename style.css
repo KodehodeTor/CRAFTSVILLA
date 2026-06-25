@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -80,6 +81,10 @@ nav a {
 
 nav a:visited {
   color: rgb(59, 60, 60);
+}
+
+.price {
+  font-weight: bolder;
 }
 
 /* SPLIDE/SLIDE */
